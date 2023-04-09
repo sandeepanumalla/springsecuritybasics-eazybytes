@@ -1,13 +1,13 @@
-package com.eazybytes.springsecuritysection2.Controller;
+package com.eazybytes.Controller;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-public class CardsController {
+public class ContactsController {
 
-    @GetMapping("/myCards")
+    @GetMapping("/contact")
     public String getAccountDetails() {
-        return "Here are the card details from the db";
+        return "Here are the contacts details from the db";
     }
 }
